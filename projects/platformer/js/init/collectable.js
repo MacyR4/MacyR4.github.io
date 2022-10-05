@@ -32,6 +32,8 @@
    *      gravity: OPTIONAL The gravitational pull on the collectable.
    *      bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
    */
+  
+
   function init(game) {
     let createCollectable = collectable.create;
 
@@ -39,8 +41,9 @@
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
 
     // example:
-    createCollectable(type.steve, 200, 170, 6, 0.7);
-
+    createCollectable(type.steve, 200, 430, 6, 0.7);
+createCollectable(type.db, 725,310, 170,.98)
+createCollectable(type.kennedi, 200, 290, 160, .98)
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
   }
